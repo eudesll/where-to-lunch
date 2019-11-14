@@ -5,7 +5,7 @@ router.post('/', function(req, res, next) {
   res.send({
     "response_type": "in_channel",
     "type": "mrkdwn",
-    "text": "Today we will lunch at *Rockafella*"
+    "text": "<!here> Today we will lunch at *Rockafella*"
   });
 });
 
